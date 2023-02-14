@@ -20,7 +20,7 @@ public class TesteLeitura2 {
 			String titular = linhaScanners.next();
 			double saldo = Double.parseDouble(linhaScanners.next());
 			//			System.out.println(tipoConta + agencia + numero + titular + saldo);
-			String valorFormatado = String.format(new Locale ("pt","BR"),"%s - %04d-%08d, %20s: %.2f:", tipoConta, agencia, numero, titular, saldo);
+			String valorFormatado = String.format(new Locale ("pt","BR"),"%s - %04d-%08d, %20s: %.2f", tipoConta, agencia, numero, titular, saldo);
 			System.out.println(valorFormatado);
 			linhaScanners.close();
 		}
