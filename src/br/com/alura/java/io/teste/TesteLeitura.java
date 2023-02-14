@@ -9,7 +9,7 @@ public class TesteLeitura {
 	public static void main(String[] args) throws Exception{
 		// TODO Auto-generated method stub
 		FileInputStream fi = new FileInputStream("Lorem.txt");
-		InputStreamReader is = new InputStreamReader(fi);
+		InputStreamReader is = new InputStreamReader(fi,"UTF-8");
 		BufferedReader br = new BufferedReader(is);
 		
 		String linha = br.readLine();

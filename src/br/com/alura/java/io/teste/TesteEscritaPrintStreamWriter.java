@@ -14,7 +14,7 @@ public class TesteEscritaPrintStreamWriter {
 		//		
 
 		long ini = System.currentTimeMillis();
-		PrintStream ps = new PrintStream("Lorem2.txt");
+		PrintStream ps = new PrintStream("Lorem2.txt", "UTF-8");
 
 		ps.println("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod");
 		ps.println("tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam");
